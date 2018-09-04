@@ -1,0 +1,28 @@
+
+<body>
+ 
+    <style>
+    video, canvas {
+      margin-left: 230px;
+      margin-top: 120px;
+      position: absolute;
+    }
+    </style>
+
+<div class="demo-frame">
+<div class="demo-container">
+  <video id="video" width="500" height="500" preload autoplay loop muted></video>
+  <canvas id="canvas" width="320" height="240"></canvas>
+</div>
+</div>
+<canvas  id="myCanvas" width="400" height="350"></canvas> 
+<!-- <div style="height: 200px;width: 200px; border: solid">
+ 
+</div> -->
+
+<script src="tracking-min.js"></script>
+<script src="face-min.js"></script>
+<script src="face-ext.js"></script>
+
+<input type="button" onclick="login()" value="Detect">
+</body>
